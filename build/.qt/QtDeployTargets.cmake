@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_tdc_to_cluster_plugin_FILE /home/onok/2026/2026-3/tdc_to_cluster/build/tdc_to_cluster.so)
+set(__QT_DEPLOY_TARGET_tdc_to_cluster_plugin_TYPE SHARED_LIBRARY)

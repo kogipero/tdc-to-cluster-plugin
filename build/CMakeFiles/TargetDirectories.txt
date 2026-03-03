@@ -1,0 +1,7 @@
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/tdc_to_cluster_plugin.dir
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/edit_cache.dir
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/rebuild_cache.dir
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/list_install_components.dir
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/install.dir
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/install/local.dir
+/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/install/strip.dir

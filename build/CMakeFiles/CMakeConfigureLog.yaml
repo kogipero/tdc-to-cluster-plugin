@@ -1,0 +1,821 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      The system is: Linux - 6.8.0-94-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/3.31.9/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/3.31.9/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_289dc/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_289dc.dir/build.make CMakeFiles/cmTC_289dc.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ'
+        Building C object CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -c /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ -v -fcoverage-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -sys-header-deps -I/opt/local/include/eigen3 -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -x c /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/local/include/eigen3
+         /usr/lib/llvm-20/lib/clang/20/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_289dc
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289dc.dir/link.txt --verbose=1
+        Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_289dc /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-20/bin/../lib -L/lib -L/usr/lib -v CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -o cmTC_289dc
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/local/include/eigen3]
+          add: [/usr/lib/llvm-20/lib/clang/20/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/local/include/eigen3] ==> [/opt/local/include/eigen3]
+        collapse include dir [/usr/lib/llvm-20/lib/clang/20/include] ==> [/usr/lib/llvm-20/lib/clang/20/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/local/include/eigen3;/usr/lib/llvm-20/lib/clang/20/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_289dc/fast]
+        ignore line: [/opt/local/bin/gmake  -f CMakeFiles/cmTC_289dc.dir/build.make CMakeFiles/cmTC_289dc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ']
+        ignore line: [Building C object CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -c /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ -v -fcoverage-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-f9cVyJ -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -sys-header-deps -I/opt/local/include/eigen3 -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -x c /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/local/include/eigen3]
+        ignore line: [ /usr/lib/llvm-20/lib/clang/20/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_289dc]
+        ignore line: [/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_289dc.dir/link.txt --verbose=1]
+        ignore line: [Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_289dc /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-20/bin/../lib -L/lib -L/usr/lib -v CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_289dc] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/llvm-20/bin/../lib] ==> dir [/usr/lib/llvm-20/bin/../lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_289dc.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/llvm-20/bin/../lib] ==> [/usr/lib/llvm-20/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib/llvm-20/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_19d9a/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_19d9a.dir/build.make CMakeFiles/cmTC_19d9a.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT'
+        Building CXX object CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT -v -fcoverage-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/opt/local/include/eigen3 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/local/include/eigen3
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14
+         /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward
+         /usr/lib/llvm-20/lib/clang/20/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_19d9a
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d9a.dir/link.txt --verbose=1
+        Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-20/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_19d9a /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-20/bin/../lib -L/lib -L/usr/lib -v CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_19d9a
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/local/include/eigen3]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward]
+          add: [/usr/lib/llvm-20/lib/clang/20/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/opt/local/include/eigen3] ==> [/opt/local/include/eigen3]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14] ==> [/usr/include/x86_64-linux-gnu/c++/14]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/llvm-20/lib/clang/20/include] ==> [/usr/lib/llvm-20/lib/clang/20/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/opt/local/include/eigen3;/usr/include/c++/14;/usr/include/x86_64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/llvm-20/lib/clang/20/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_19d9a/fast]
+        ignore line: [/opt/local/bin/gmake  -f CMakeFiles/cmTC_19d9a.dir/build.make CMakeFiles/cmTC_19d9a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-20/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT -v -fcoverage-compilation-dir=/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-h8O6PT -resource-dir /usr/lib/llvm-20/lib/clang/20 -dependency-file CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -I/opt/local/include/eigen3 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward -internal-isystem /usr/lib/llvm-20/lib/clang/20/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 20.1.8 based upon LLVM 20.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/local/include/eigen3]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/x86_64-linux-gnu/c++/14]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/../../../../include/c++/14/backward]
+        ignore line: [ /usr/lib/llvm-20/lib/clang/20/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_19d9a]
+        ignore line: [/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d9a.dir/link.txt --verbose=1]
+        ignore line: [Debian clang version 20.1.8 (++20250708063603+0c9f909b7976-1~exp1~20250708183704.139)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-20/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/14]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_19d9a /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-20/bin/../lib -L/lib -L/usr/lib -v CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_19d9a] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/llvm-20/bin/../lib] ==> dir [/usr/lib/llvm-20/bin/../lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_19d9a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/llvm-20/bin/../lib] ==> [/usr/lib/llvm-20/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib/llvm-20/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:301 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-5mtlzF"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-5mtlzF"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-5mtlzF'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_8a8b0/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_8a8b0.dir/build.make CMakeFiles/cmTC_8a8b0.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-5mtlzF'
+        Building C object CMakeFiles/cmTC_8a8b0.dir/src.c.o
+        /usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_8a8b0.dir/src.c.o -MF CMakeFiles/cmTC_8a8b0.dir/src.c.o.d -o CMakeFiles/cmTC_8a8b0.dir/src.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-5mtlzF/src.c
+        Linking C executable cmTC_8a8b0
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a8b0.dir/link.txt --verbose=1
+        /usr/bin/clang CMakeFiles/cmTC_8a8b0.dir/src.c.o -o cmTC_8a8b0
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-5mtlzF'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /opt/software/linux-x86_64_v2/libx11-1.8.12-utzf6rsiqpwcicfrutmndyx66pabbofj/lib/libX11.so;/opt/software/linux-x86_64_v2/libxext-1.3.6-x3kp6bp3kfrsrpe6jg3owkywr5itxqrn/lib/libXext.so"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-AlOp4P"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-AlOp4P"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-AlOp4P'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_770e7/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_770e7.dir/build.make CMakeFiles/cmTC_770e7.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-AlOp4P'
+        Building C object CMakeFiles/cmTC_770e7.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -MD -MT CMakeFiles/cmTC_770e7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_770e7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_770e7.dir/CheckFunctionExists.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-AlOp4P/CheckFunctionExists.c
+        Linking C executable cmTC_770e7
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770e7.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_770e7.dir/CheckFunctionExists.c.o -o cmTC_770e7   -L/opt/software/linux-x86_64_v2/libx11-1.8.12-utzf6rsiqpwcicfrutmndyx66pabbofj/lib  -Wl,-rpath,/opt/software/linux-x86_64_v2/libx11-1.8.12-utzf6rsiqpwcicfrutmndyx66pabbofj/lib:/opt/software/linux-x86_64_v2/libxext-1.3.6-x3kp6bp3kfrsrpe6jg3owkywr5itxqrn/lib /opt/software/linux-x86_64_v2/libx11-1.8.12-utzf6rsiqpwcicfrutmndyx66pabbofj/lib/libX11.so /opt/software/linux-x86_64_v2/libxext-1.3.6-x3kp6bp3kfrsrpe6jg3owkywr5itxqrn/lib/libXext.so
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-AlOp4P'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-EWqRSr"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-EWqRSr"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-EWqRSr'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_7e820/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_7e820.dir/build.make CMakeFiles/cmTC_7e820.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-EWqRSr'
+        Building C object CMakeFiles/cmTC_7e820.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=gethostbyname -MD -MT CMakeFiles/cmTC_7e820.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7e820.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7e820.dir/CheckFunctionExists.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-EWqRSr/CheckFunctionExists.c
+        Linking C executable cmTC_7e820
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e820.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_7e820.dir/CheckFunctionExists.c.o -o cmTC_7e820
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-EWqRSr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-BNplG2"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-BNplG2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-BNplG2'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_ad457/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_ad457.dir/build.make CMakeFiles/cmTC_ad457.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-BNplG2'
+        Building C object CMakeFiles/cmTC_ad457.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=connect -MD -MT CMakeFiles/cmTC_ad457.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ad457.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ad457.dir/CheckFunctionExists.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-BNplG2/CheckFunctionExists.c
+        Linking C executable cmTC_ad457
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad457.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_ad457.dir/CheckFunctionExists.c.o -o cmTC_ad457
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-BNplG2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-1VM5kZ"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-1VM5kZ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-1VM5kZ'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_cc450/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_cc450.dir/build.make CMakeFiles/cmTC_cc450.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-1VM5kZ'
+        Building C object CMakeFiles/cmTC_cc450.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=remove -MD -MT CMakeFiles/cmTC_cc450.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_cc450.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_cc450.dir/CheckFunctionExists.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-1VM5kZ/CheckFunctionExists.c
+        Linking C executable cmTC_cc450
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc450.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_cc450.dir/CheckFunctionExists.c.o -o cmTC_cc450
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-1VM5kZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-nolz6O"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-nolz6O"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-nolz6O'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_48780/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_48780.dir/build.make CMakeFiles/cmTC_48780.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-nolz6O'
+        Building C object CMakeFiles/cmTC_48780.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=shmat -MD -MT CMakeFiles/cmTC_48780.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_48780.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_48780.dir/CheckFunctionExists.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-nolz6O/CheckFunctionExists.c
+        Linking C executable cmTC_48780
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48780.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_48780.dir/CheckFunctionExists.c.o -o cmTC_48780
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-nolz6O'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:361 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-FAJNg3"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-FAJNg3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/local/cmake"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-FAJNg3'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_b06fc/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_b06fc.dir/build.make CMakeFiles/cmTC_b06fc.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-FAJNg3'
+        Building C object CMakeFiles/cmTC_b06fc.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -MD -MT CMakeFiles/cmTC_b06fc.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b06fc.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b06fc.dir/CheckFunctionExists.c.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-FAJNg3/CheckFunctionExists.c
+        Linking C executable cmTC_b06fc
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b06fc.dir/link.txt --verbose=1
+        /usr/bin/ld: cannot find -lICE: No such file or directory
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_b06fc.dir/CheckFunctionExists.c.o -o cmTC_b06fc   -L/opt/software/linux-x86_64_v2/libx11-1.8.12-utzf6rsiqpwcicfrutmndyx66pabbofj/lib  -Wl,-rpath,/opt/software/linux-x86_64_v2/libx11-1.8.12-utzf6rsiqpwcicfrutmndyx66pabbofj/lib -lICE
+        gmake[1]: *** [CMakeFiles/cmTC_b06fc.dir/build.make:103: cmTC_b06fc] Error 1
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-FAJNg3'
+        gmake: *** [Makefile:134: cmTC_b06fc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Geant4/Geant4Config.cmake:371 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/cmake/DD4hepConfig.cmake:57 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/opt/local/lib/cmake/Acts/ActsConfig.cmake:84 (find_dependency)"
+      - "/opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/onok/2026/2026-3/EICrecon/install/lib/cmake/EICrecon/EICreconConfig.cmake:33 (find_dependency)"
+      - "CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-n5J5E3"
+      binary: "/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-n5J5E3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-20"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/local/lib/cmake/Geant4/Modules;/opt/local/lib/cmake/Acts/Modules;/opt/local/cmake;/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6;/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/opt/software/linux-x86_64_v2/qt-base-6.10.0-65axqpcgsfdwo5dfdhzyj6exd2qehjma/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-n5J5E3'
+        
+        Run Build Command(s): /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E env VERBOSE=1 /opt/local/bin/gmake -f Makefile cmTC_363d1/fast
+        /opt/local/bin/gmake  -f CMakeFiles/cmTC_363d1.dir/build.make CMakeFiles/cmTC_363d1.dir/build
+        gmake[1]: Entering directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-n5J5E3'
+        Building CXX object CMakeFiles/cmTC_363d1.dir/src.cxx.o
+        /usr/bin/clang++ -DHAVE_STDATOMIC   -MD -MT CMakeFiles/cmTC_363d1.dir/src.cxx.o -MF CMakeFiles/cmTC_363d1.dir/src.cxx.o.d -o CMakeFiles/cmTC_363d1.dir/src.cxx.o -c /home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-n5J5E3/src.cxx
+        Linking CXX executable cmTC_363d1
+        /opt/software/linux-x86_64_v2/cmake-3.31.9-afjg5rcwigdxza7ncya6c52k4prpmnwk/bin/cmake -E cmake_link_script CMakeFiles/cmTC_363d1.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_363d1.dir/src.cxx.o -o cmTC_363d1
+        gmake[1]: Leaving directory '/home/onok/2026/2026-3/tdc_to_cluster/build/CMakeFiles/CMakeScratch/TryCompile-n5J5E3'
+        
+      exitCode: 0
+...
